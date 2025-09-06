@@ -1,0 +1,6 @@
+{
+  "release-type": "node",
+  "package-name": "wrestling",
+  "bump-minor-pre-major": true,
+  "changelog-path": "CHANGELOG.md"
+}

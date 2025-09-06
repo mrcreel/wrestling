@@ -1,5 +1,6 @@
 {
   "name": "wrestling",
+  "type": "commonjs",
   "version": "0.1.0",
   "description": "",
   "main": "src/index.ts",
@@ -9,7 +10,9 @@
     "seedSched": "ts-node src/seedSched.ts",
     "start": "ts-node src/index.ts",
     "build": "tsc",
-    "serve": "node dist/index.js"
+    "serve": "node dist/index.js",
+    "commit": "cz",
+    "release": "release-please"
   },
   "keywords": [],
   "author": "Michael R Creel <michaelrcreel@gmail.com>",
@@ -18,11 +21,19 @@
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "nodemon": "^3.1.10",
+    "release-please": "^17.1.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

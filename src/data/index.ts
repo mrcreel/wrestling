@@ -1,5 +1,7 @@
 import { Wrestler, School } from "../interfaces";
 
+
+/*
 export const wrestlers: Wrestler[] = [
   {
     id: 101,
@@ -22,7 +24,10 @@ export const wrestlers: Wrestler[] = [
     weightClass: 11,
   },
 ];
+*/
 
+/*
 export const schools: School[] = [
-  
+
 ];
+*/

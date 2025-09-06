@@ -1,13 +1,16 @@
+import { wrestlers } from './data'
 import { getNormalRandom } from './functions'
 import type {School, Wrestler} from './interfaces'
 
 const numSchools = 8
+const weightClasses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 const schools: School[] = []
 
 for(let sch = 1; sch <= numSchools; sch++){
 
+  let wtClasses = weightClasses
   const numWrestlers = getNormalRandom(10, 1, 1, 12)
-  let wtClasses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  
   const classesToRemove = wtClasses.length - numWrestlers
 
   for(let c = 0; c < classesToRemove; c++){
@@ -31,3 +34,4 @@ for(let sch = 1; sch <= numSchools; sch++){
 }
 
 console.log(schools)
+
