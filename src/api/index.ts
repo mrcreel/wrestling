@@ -1,7 +1,10 @@
 import {Request, Response, Router} from "express"
 
-import wrestlers from '../routes/wrestlersRoutes'
-import schools from '../routes/schoolsRoutes'
+import MessageResponse from "@/interfaces/MessageResponse"
+
+import wrestlers from './wrestlers/wrestlers.routes'
+
+// import schools from '../routes/schoolsRoutes'
 
 const router = Router()
 
@@ -12,7 +15,7 @@ router.get('/', (req: Request, res: Response) => {
 })
 
 router.use('/wrestlers', wrestlers)
-router.use('/schools', schools)
+// router.use('/schools', schools)
 
 
 export default router

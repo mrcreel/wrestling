@@ -3,12 +3,14 @@ import express, {Request, Response} from 'express'
 import api from './api'
 
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 4000
 
 app.use(express.json())
 
+const result: any[] = []
+
 app.get("/", (req: Request, res: Response) => {
-  res.send(`Welcome to Node.js + Typescript API`)
+  res.json(result)
 })
 
 app.use('/api/v0', api)
