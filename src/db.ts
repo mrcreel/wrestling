@@ -1,6 +1,8 @@
-import { MongoClient } from "mongodb";
+import { MongoClient } from "mongodb"
 
-const {MONGO_URI = `mongodb://localhost:27017/wrestling`} = process.env
+import 'dotenv/config'
 
-export const client = new MongoClient(MONGO_URI)
+const {MONGO_URI} = process.env
+
+export const client = new MongoClient(MONGO_URI as string)
 export const db = client.db()

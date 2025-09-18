@@ -1,33 +1,12 @@
-import { Wrestler, School } from "../interfaces";
+import { readFileSync } from "fs"
 
+import { Wrestler } from "@/api/wrestlers/wrestlers.model"
+import { School } from "@/api/schools/schools.model"
 
-/*
-export const wrestlers: Wrestler[] = [
-  {
-    id: 101,
-    abilityScore: 75,
-    weightClass: 1,
-  },
-  {
-    id: 703,
-    abilityScore: 63,
-    weightClass: 3,
-  },
-  {
-    id: 805,
-    abilityScore: 81,
-    weightClass: 5,
-  },
-  {
-    id: 411,
-    abilityScore: 48,
-    weightClass: 11,
-  },
-];
-*/
+const wrestlers: Wrestler[] = JSON.parse(readFileSync("src/data/wrestlers.json", "utf-8"))
+const schools: School[] = JSON.parse(readFileSync("src/data/schools.json", "utf-8"))
 
-/*
-export const schools: School[] = [
-
-];
-*/
+export {
+  wrestlers,
+  schools
+}

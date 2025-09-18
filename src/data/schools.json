@@ -1,1 +1,112 @@
-[{}]
+[
+  {
+  "schoolId": 100,
+  "wrestlers": [
+    { "wrestlerId": 101, "abilityScore": 78 },
+    { "wrestlerId": 102, "abilityScore": 93 },
+    { "wrestlerId": 103, "abilityScore": 97 },
+    { "wrestlerId": 104, "abilityScore": 98 },
+    { "wrestlerId": 105, "abilityScore": 90 },
+    { "wrestlerId": 106, "abilityScore": 89 },
+    { "wrestlerId": 107, "abilityScore": 100 },
+    { "wrestlerId": 108, "abilityScore": 108 },
+    { "wrestlerId": 109, "abilityScore": 135 },
+    { "wrestlerId": 110, "abilityScore": 69 },
+    { "wrestlerId": 111, "abilityScore": 77 },
+    { "wrestlerId": 112, "abilityScore": 91 }
+  ]
+  },
+  {
+    "schoolId": 200,
+    "wrestlers": [
+      { "wrestlerId": 201, "abilityScore": 105 },
+      { "wrestlerId": 202, "abilityScore": 112 },
+      { "wrestlerId": 203, "abilityScore": 91 },
+      { "wrestlerId": 204, "abilityScore": 115 },
+      { "wrestlerId": 206, "abilityScore": 85 },
+      { "wrestlerId": 208, "abilityScore": 85 },
+      { "wrestlerId": 209, "abilityScore": 122 },
+      { "wrestlerId": 210, "abilityScore": 87 },
+      { "wrestlerId": 212, "abilityScore": 107 }
+    ]
+  },
+  {
+    "schoolId": 300,
+    "wrestlers": [
+      { "wrestlerId": 301, "abilityScore": 88 },
+      { "wrestlerId": 302, "abilityScore": 104 },
+      { "wrestlerId": 303, "abilityScore": 91 },
+      { "wrestlerId": 304, "abilityScore": 112 },
+      { "wrestlerId": 306, "abilityScore": 127 },
+      { "wrestlerId": 308, "abilityScore": 125 },
+      { "wrestlerId": 309, "abilityScore": 113 },
+      { "wrestlerId": 310, "abilityScore": 104 },
+      { "wrestlerId": 312, "abilityScore": 99 }
+    ]
+  },
+  {
+    "schoolId": 400,
+    "wrestlers": [
+      { "wrestlerId": 402, "abilityScore": 95 },
+      { "wrestlerId": 403, "abilityScore": 119 },
+      { "wrestlerId": 404, "abilityScore": 93 },
+      { "wrestlerId": 406, "abilityScore": 113 },
+      { "wrestlerId": 408, "abilityScore": 102 },
+      { "wrestlerId": 409, "abilityScore": 119 },
+      { "wrestlerId": 410, "abilityScore": 117 },
+      { "wrestlerId": 412, "abilityScore": 88 }
+    ]
+  },
+  {
+    "schoolId": 500,
+    "wrestlers": [
+      { "wrestlerId": 502, "abilityScore": 114 },
+      { "wrestlerId": 503, "abilityScore": 89 },
+      { "wrestlerId": 504, "abilityScore": 102 },
+      { "wrestlerId": 506, "abilityScore": 104 },
+      { "wrestlerId": 508, "abilityScore": 83 },
+      { "wrestlerId": 509, "abilityScore": 78 },
+      { "wrestlerId": 510, "abilityScore": 103 },
+      { "wrestlerId": 512, "abilityScore": 103 }
+    ]
+  },
+  {
+    "schoolId": 600,
+    "wrestlers": [
+      { "wrestlerId": 602, "abilityScore": 96 },
+      { "wrestlerId": 603, "abilityScore": 98 },
+      { "wrestlerId": 604, "abilityScore": 123 },
+      { "wrestlerId": 606, "abilityScore": 102 },
+      { "wrestlerId": 608, "abilityScore": 95 },
+      { "wrestlerId": 609, "abilityScore": 85 },
+      { "wrestlerId": 610, "abilityScore": 92 },
+      { "wrestlerId": 612, "abilityScore": 111 }
+    ]
+  },
+  {
+    "schoolId": 700,
+    "wrestlers": [
+      { "wrestlerId": 702, "abilityScore": 103 },
+      { "wrestlerId": 703, "abilityScore": 88 },
+      { "wrestlerId": 704, "abilityScore": 103 },
+      { "wrestlerId": 706, "abilityScore": 125 },
+      { "wrestlerId": 708, "abilityScore": 99 },
+      { "wrestlerId": 709, "abilityScore": 114 },
+      { "wrestlerId": 710, "abilityScore": 96 },
+      { "wrestlerId": 712, "abilityScore": 120 }
+    ]
+  },
+  {
+    "schoolId": 800,
+    "wrestlers": [
+      { "wrestlerId": 802, "abilityScore": 89 },
+      { "wrestlerId": 803, "abilityScore": 96 },
+      { "wrestlerId": 804, "abilityScore": 87 },
+      { "wrestlerId": 806, "abilityScore": 83 },
+      { "wrestlerId": 808, "abilityScore": 100 },
+      { "wrestlerId": 809, "abilityScore": 126 },
+      { "wrestlerId": 810, "abilityScore": 120 },
+      { "wrestlerId": 812, "abilityScore": 78 }
+    ]
+  }
+]

@@ -1,8 +1,9 @@
 import { NextFunction, Request, Response } from "express";
 import { ObjectId } from "mongodb";
 
-import {Wrestler, Wrestlers, WrestlerWithId} from './wrestlers.model'
-import { ParamsWithId } from "@/interfaces/ParamsWithId";
+import {School, Schools, SchoolWithId} from '../schools/schools.model'
+
+import { schools } from "@/data"
 
 export const FindAll = async (
   req: Request,
@@ -10,8 +11,10 @@ export const FindAll = async (
   next: NextFunction
 ) => {
   try {
-    const wrestlers = await Wrestlers.find().toArray()
-    res.json(wrestlers)
+    const result = schools.map((school: School) => {
+      return school.wrestlers
+    }).flat(Infinity)
+    res.json(result)
   } catch (error) {
     next(error)
   }

@@ -31,7 +31,7 @@ for(let sch = 1; sch <= numSchools; sch++){
     wrestlers
   }
   schools.push(school)
+  console.log(school)
 }
 
-console.log(schools)
 

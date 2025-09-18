@@ -10,7 +10,7 @@ app.use(express.json())
 const result: any[] = []
 
 app.get("/", (req: Request, res: Response) => {
-  res.json(result)
+  res.json({message: `/home/michael/projects/wrestling/src/index.ts`})
 })
 
 app.use('/api/v0', api)

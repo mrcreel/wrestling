@@ -1,7 +1,7 @@
-import {ZodAny} from 'zod'
+import { ZodType } from 'zod';
 
 export default interface RequestValidators {
-    body?: ZodAny
-    params?: ZodAny 
-    query?: ZodAny
+  body?: ZodType;
+  params?: ZodType;
+  query?: ZodType;
 }
